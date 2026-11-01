@@ -1,0 +1,20 @@
+{
+  "name": "webhook-candidate-5095",
+  "version": "1.0.0",
+  "description": "Live Webhook for candidate PH-2026-5095",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-webhook.js"
+  },
+  "keywords": [
+    "webhook",
+    "hmac",
+    "idempotency"
+  ],
+  "author": "PH-2026-5095",
+  "license": "ISC",
+  "dependencies": {
+    "localtunnel": "^2.0.2"
+  }
+}
